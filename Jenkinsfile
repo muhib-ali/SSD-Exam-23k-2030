@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Print Student Info') {
             steps {
-                sh 'python3 main.py'
+                bat 'python main.py'
             }
         }
     }
